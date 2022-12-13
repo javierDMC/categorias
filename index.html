@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>categorias</title>
+    <style>
+        .contenedor {
+            display: grid;
+            grid-template-areas:
+                "c-card1 c-card2 c-card3"
+                "c-card4 c-card5 c-card6";
+        }
+
+        .c-card2 {
+            grid-area: c-card2;
+            border: 2px solid;
+            text-align: center;
+            height: 400px;
+            width: 400px;
+            margin: 20px 20px 20px 20px;
+        }
+
+        .c-card3 {
+            grid-area: c-card3;
+            border: 2px solid;
+            text-align: center;
+            height: 400px;
+            width: 400px;
+            margin: 20px 20px 20px 20px;
+        }
+
+        .c-card4 {
+            grid-area: c-card4;
+            border: 2px solid;
+            text-align: center;
+            height: 400px;
+            width: 400px;
+            margin: 20px 20px 20px 20px;
+        }
+
+        .c-card5 {
+            grid-area: c-card5;
+            border: 2px solid;
+            text-align: center;
+            height: 400px;
+            width: 400px;
+            margin: 20px 20px 20px 20px;
+        }
+
+        .c-card6 {
+            grid-area: c-card6;
+            border: 2px solid;
+            text-align: center;
+            height: 400px;
+            width: 400px;
+            margin: 20px 20px 20px 20px;
+        }
+
+        .c-card1 {
+            grid-area: c-card1;
+            border: 2px solid;
+            text-align: center;
+            height: 400px;
+            width: 400px;
+            margin: 20px 20px 20px 20px;
+        }
+
+        .c-card__nombre {
+            background-color: #c8b59f;
+            color: white;
+            border-bottom: 2px solid black;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            font-size: 40px;
+            justify-content: center;
+            -webkit-text-stroke: 2px white;
+        }
+
+        .c-card__imagen {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            height: auto;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="c-card1">
+            <div class="c-card__nombre">CAFÉS</div>
+            <img src="assets/cafe.jpg" class="c-card__imagen" onclick="mostrarListado()" style="cursor: pointer;" alt="Cafés">
+        </div>
+        <div class="c-card2">
+            <div class="c-card__nombre">BOCADILLOS</div>
+            <img src="assets/bocata.jpg" class="c-card__imagen" onclick="mostrarListado()" style="cursor: pointer;" alt="Bocadillos">
+        </div>
+        <div class="c-card3">
+            <div class="c-card__nombre">BEBIDAS</div>
+            <img src="assets/cocacola.jpg" class="c-card__imagen" onclick="mostrarListado()" style="cursor: pointer;" alt="Bebidas">
+        </div>
+        <div class="c-card4">
+            <div class="c-card__nombre">SALADO</div>
+            <img src="assets/salado.jpg" class="c-card__imagen" onclick="mostrarListado()" style="cursor: pointer;" alt="Salado">
+        </div>
+        <div class="c-card5">
+            <div class="c-card__nombre">DULCE</div>
+            <img src="assets/dulce.jpg" class="c-card__imagen" onclick="mostrarListado()" style="cursor: pointer;" alt="Dulce">
+        </div>
+        <div class="c-card6">
+            <div class="c-card__nombre">SNACKS</div>
+            <img src="assets/snacks.jpg" class="c-card__imagen" onclick="mostrarListado()" style="cursor: pointer;" alt="Snacks">
+        </div>
+    </div>
+</body>
+
+</html>
